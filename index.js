@@ -1,4 +1,4 @@
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { DateTime } from './module/luxon.js';
 import { addBook, getStorageData, displayBooks } from './module/books.js';
 import Library from './module/lists.js';
 import {
@@ -19,7 +19,7 @@ window.onbeforeunload = () => {
   displayBooks(library);
 };
 
-const currentTime = DateTime.now().toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+const currentTime = DateTime.now().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
 document.getElementById('date').innerHTML = currentTime;
 
 window.onload = displayList;
