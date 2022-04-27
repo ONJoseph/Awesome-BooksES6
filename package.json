@@ -1,7 +1,7 @@
 {
-  "name": "Awesome-BooksES6",
+  "name": "awesome-bookses6",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ONJoseph/Awesome-BooksES6/issues"
   },
-  "homepage": "https://github.com/ONJoseph/Awesome-BooksES6#readme"
+  "homepage": "https://github.com/ONJoseph/Awesome-BooksES6#readme",
+  "dependencies": {
+    "luxon": "^2.3.2"
+},
+"devDependencies": {
+  "@types/luxon": "^2.3.1"
+}
 }
