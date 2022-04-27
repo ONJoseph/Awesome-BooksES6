@@ -15,7 +15,7 @@
 
 ## Live Preview
 
-[Live Preview]()
+[Live Preview](https://onjoseph.github.io/Awesome-BooksES6/)
 
 
 ## Getting Started
